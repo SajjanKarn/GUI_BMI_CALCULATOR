@@ -1,3 +1,4 @@
+# importing modules
 from tkinter import *
 from tkinter import messagebox
 
@@ -15,7 +16,7 @@ weight_label.grid(row=0, column=0)
 height_label = Label(root, text="Height : ", font=universal_font)
 height_label.grid(row=1, column=0)
 
-
+# calculate logic
 def calculate_bmi():
     # Lets get the values from each entry
     wght = weight.get()
